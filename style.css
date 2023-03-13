@@ -107,7 +107,9 @@ main{
     line-height: 1px;
 }
 
-.rightgroup{
+.first-box{
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
