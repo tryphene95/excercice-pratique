@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: hsl(27, 66%, 92%);
+}
+
+.container{
+    
+    height: 500px;
+    width: 450px;
+}
+
+main{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 1rem;
+    background-color: hsl(10, 79%, 65%);
+    color: white;
+    border-radius: 2rem;
+
+}
+
+.header-left{
+  
+
+
+}
+
+.header-right{
+    
+}
+
+.card-body{
+
+    margin-top: 2rem;
+    background-color: white;
+    padding: 0 2rem;
+    border-radius: 2rem;
+    padding-top: 1.5rem;
+}
+
+.histogram{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid var(orange);
+}
+
+.rod{
+    width: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.strip{
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.2rem;
+
+}
+
+
+.mon{
+    height: 25%;
+}
+
+.tue{
+    height: 50%;
+}
+
+.wed{
+    height: 75%;
+    background-color: hsl(186, 34%, 60%);
+}
+
+.thu{
+    height: 40%;
+}
+
+.fri{
+    height: 35%;
+}
+
+.sat{
+    height: 60%;
+}
+
+.sun{
+    height: 45%;
+    line-height: 1px;
+}
+
+.rightgroup{
+    display: flex;
+    justify-content: space-between;
+}
